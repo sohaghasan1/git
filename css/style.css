@@ -1,0 +1,33 @@
+.flex_container{
+    border: 2px solid #000;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}   
+.items{
+   color:#fff;
+    font-size: 30px;
+}
+.items1{
+    background-color: rebeccapurple;
+    
+}
+.items2{
+    background-color: black;
+   
+}
+.items3{
+    background-color: blueviolet;
+}
+.items4{
+    background-color: brown;
+}
+.items5{
+    background-color: greenyellow;
+   
+}
+.items6{
+    background-color: red;
+    grid-area: span 3;
+}
